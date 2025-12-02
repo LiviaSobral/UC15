@@ -2,7 +2,6 @@ import { StyleSheet, Text, View, TextInput, Button, FlatList } from 'react-nativ
 import React, { useState } from 'react'
 
 export default function Tarefas() {
-    const [tarefas, setTarefas] = useState<string[]>([])
 
     const [novaTarefa, setNovaTarefa] = useState('')
     const adicionaTarefa = () => {
